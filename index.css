@@ -1,0 +1,102 @@
+h1 {
+    color: green;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: Verdana;
+}
+
+
+.menu {
+    margin-left: 260px;
+    margin-top: 40px;
+    border: 0px solid;
+    width: 1400px;
+    height: 40px;
+    padding: 15px;
+}
+
+p {
+    color: red;
+    text-indent: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: justify;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.heading {
+    margin-top: 0px;
+    border: 0px solid;
+    height: 780px;
+    color: red;
+}
+
+th, h1, h2 {
+    font-weight: 300;
+}
+
+h3 {
+    font-family: arial;
+    color: orange;
+}
+
+h2 {
+    font-family: Times New Roman;
+    font-size: 20px;
+    text-align: right;
+    font-weight: 300;
+    color: #00BFFF;
+}
+
+h4 {
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 180px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+h5:hover {
+    color: green;
+    border-radius: 10px;
+    width: 180px;
+    margin: auto;
+    font-size: 30px;
+    margin-top: 22px;
+}
+
+.tabl {
+    margin-top: 20px;
+    width: 500px;
+    height: 300px;
+    border: 0px solid black;
+    margin: auto;
+}
+
+table {
+    margin-top: 230px;
+    border: 1px solid;
+    border-collapse: collapse;
+    font-size: 20px;
+    color: red;
+    font-weight: 300;
+    width: 400px;
+    height: 200px;
+}
+
+th {
+    vertical-align: center;
+    text-align: left;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+td {
+    vertical-align: top;
+    text-align: center;
+    font-weight: 800;
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px;
+}
