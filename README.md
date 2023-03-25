@@ -232,8 +232,8 @@ if (chrom == 'X'){alert('Поздравляю у вас дочь');}
 else if (chrom == 'Y'){alert('Поздравляю у вас сын');}
 else {alert('введите правильную хромосому');}
 }
-
-        }
+}
+        
 function simpleMultiplication(number) {
 if (number % 2 == 0)
 {console.log(number*8);}
@@ -243,13 +243,16 @@ else {console.log(number*9);}
 function nearestSq(n){
         return Math.pow(Math.round(Math.sqrt(n)),2);
     } 
+        
 var countSquares = function(cuts){
   return cuts != 0 ? (cuts+1)**3 - (cuts-1)**3 : 1;
     }
+        
 function periodIsLate(last, today, cycleLength) {
   var temp = Math.ceil((today - last)/(1000 * 60 * 60 * 24));
   if (temp > cycleLength) return true; else return false;
     }
+        
 function noSpace(x){
   return x.replaceAll(" ","");
     }
