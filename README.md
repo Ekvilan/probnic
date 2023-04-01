@@ -282,3 +282,5 @@ https://www.codewars.com/kata/57eae20f5500ad98e50002c5
                         function noSpace(x){
                           return x.replaceAll(" ","");
                             }
+                            
+Вывод: При помощи таких средств как HTML, CSS, и программы visual studio получилось создать страницы по образцу. Задача выполнена.                      
