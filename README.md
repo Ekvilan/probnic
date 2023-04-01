@@ -51,208 +51,234 @@ https://www.codewars.com/kata/57eae20f5500ad98e50002c5
 Решить предложенные задачи.
 Научиться создавать переменные, проводить над ними операции (сложения, вычитания и т.д.), выводить переменные или результат операций.
 Решение задач
-<p>задание 1</p>
-<script>
-let str='hdfgv';
-document.write(str[0]+','+str[1]+','+str[4]);
-</script>
+              
+              <p>задание 1</p>
+                <script>
+                let str='hdfgv';
+                document.write(str[0]+','+str[1]+','+str[4]);
+                </script>
 
 <p>задание 2</p>
-<script>
-let secondHous=60*60;
-document.write('в часу '+secondHous+ ' секунд');
-</script>
+               
+               <script>
+                let secondHous=60*60;
+                document.write('в часу '+secondHous+ ' секунд');
+                </script>
 
 <p>задание 3 выплывающее окно</p>
-<script>
-var num=1;
-num+=12;
-num-=14;
-num*=5;
-num/=7;
-num++;
-num--;
-alert(num);
-</script>
+              
+              <script>
+                var num=1;
+                num+=12;
+                num-=14;
+                num*=5;
+                num/=7;
+                num++;
+                num--;
+                alert(num);
+                </script>
 
 <p>задание 4 выплывающее окно</p>
-<script>
-var num=3;
-alert(num);
-</script>
+                
+                <script>
+                var num=3;
+                alert(num);
+                </script>
 
 <p>задание 5</p>
-<script>
-var a=10, b=2;
-document.write(a+b);
-document.write(a-b);
-document.write(a*b);
-document.write(a/b);
-</script>
+       
+       <script>
+        var a=10, b=2;
+        document.write(a+b);
+        document.write(a-b);
+        document.write(a*b);
+        document.write(a/b);
+        </script>
 
 <p>задание 6</p>
-<script>
-var c=15, d=2;
-resut=c+d;
-document.write(resut);
-</script>
+       
+               <script>
+                var c=15, d=2;
+                resut=c+d;
+                document.write(resut);
+                </script>
 
 <p>задание 7</p>
-<script>
-var c=5, a=10, b=2;
-resut=c+a+b;
-document.write(resut);
-</script>
+
+                <script>
+                var c=5, a=10, b=2;
+                resut=c+a+b;
+                document.write(resut);
+                </script>
 
 <p>задание 8</p>
-<script>
-var a=17, b=10;
-c=a+b;
-d=7;
-result=c+d;
-document.write(result);
-</script>
+                
+                <script>
+                var a=17, b=10;
+                c=a+b;
+                d=7;
+                result=c+d;
+                document.write(result);
+                </script>
 
 <p>задание 9</p>
-<script>
-let secondHous=60*60;
-let secondSut=secondHous*24;
-let secondManth=secondSut*31;
-document.write('в часу '+secondHous+ ' секунд'+' в сутках '+secondSut+ ' секунд'+' в месяце '+secondManth+ ' секунд');
-</script>
+              
+              <script>
+                let secondHous=60*60;
+                let secondSut=secondHous*24;
+                let secondManth=secondSut*31;
+                document.write('в часу '+secondHous+ ' секунд'+' в сутках '+secondSut+ ' секунд'+' в месяце '+secondManth+ ' секунд');
+                </script>
 
 <p>задание 10</p>
-<script>
-let hour=12;
-let minute=50;
-let second=37;
-document.write(hour+':'+minute+':'+second);
-</script>
+                
+                <script>
+                let hour=12;
+                let minute=50;
+                let second=37;
+                document.write(hour+':'+minute+':'+second);
+                </script>
 
 <p>задание 11</p>
-<script>
-var a=17
-result=a*a;
-document.write(result);
-</script>
+              
+              <script>
+                var a=17
+                result=a*a;
+                document.write(result);
+                </script>
 
 <p>задание 12</p>
-<script>
-document.write(  [1, 2, 3, 4, 5, 6, 7,8,9,10].filter(n => n % 2 == 0).reduce( (sum, n) => sum + n**0.5, 0 ));
-</script>
+             
+             <script>
+                document.write(  [1, 2, 3, 4, 5, 6, 7,8,9,10].filter(n => n % 2 == 0).reduce( (sum, n) => sum + n**0.5, 0 ));
+                </script>
 
 <p>задание 13<p>
-<script>
-var apple = 1.15, orange = 2.30
-result= apple + orange;
-document.write(result);
-</script>
+               
+               <script>
+                var apple = 1.15, orange = 2.30
+                result= apple + orange;
+                document.write(result);
+                </script>
 
 <p>задание 14<p>
-<script>
-var x=5;
-alert(x++);
-</script>
+               
+               <script>
+                var x=5;
+                alert(x++);
+                </script>
 
 <p>задание 15<p>
-<script>
-var result = []+false-null+true;
-document.write(result);
-</script>
+              
+              <script>
+                var result = []+false-null+true;
+                document.write(result);
+                </script>
 
 <p>задание 16</p>
-<script>
-let y=1;
-let x=y=2;
-console.log(x);
-</script>
+              
+              <script>
+                let y=1;
+                let x=y=2;
+                console.log(x);
+                </script>
 
 <p>задание 17<p>
-<script>
-var result = []+1+2;
-document.write(result);
-</script>
+
+                <script>
+                var result = []+1+2;
+                document.write(result);
+                </script>
 
 <p>задание 18<p>
-<script>
-a6=5%3;
-a7=3%5;
-a8=5+'3';
-a9='5'+3;
-a10=75+'kg'
-document.write(a6);
-document.write(a7);
-document.write(a8);
-document.write(a9);
-document.write(a10);
-</script>
+               
+               <script>
+                a6=5%3;
+                a7=3%5;
+                a8=5+'3';
+                a9='5'+3;
+                a10=75+'kg'
+                document.write(a6);
+                document.write(a7);
+                document.write(a8);
+                document.write(a9);
+                document.write(a10);
+                </script>
 
 <p>задание 19<p>
-<script>
-const heigth =23;
-const width =10;
-const s= heigth * width;
-document.write(s);
-</script>
+               
+               <script>
+                const heigth =23;
+                const width =10;
+                const s= heigth * width;
+                document.write(s);
+                </script>
 
 <p>задание 20<p>
-<script>
-const heigthC =23;
-const dC =10;
-const v= Math.PI*Math.pow(dC/2,2)*heigthC;
-document.write(v);
-</script>
+               
+               <script>
+                const heigthC =23;
+                const dC =10;
+                const v= Math.PI*Math.pow(dC/2,2)*heigthC;
+                document.write(v);
+                </script>
 
 <p>задание 21<p>
-<script>
-let s = 2e6, p=10, years=5;
-let pereki = (s*(p/100)*years);
-document.write('сумма переплат '+ pereki +' руб');
-</script>
+              
+              <script>
+                let s = 2e6, p=10, years=5;
+                let pereki = (s*(p/100)*years);
+                document.write('сумма переплат '+ pereki +' руб');
+                </script>
 
 <p>задание 22<p>
-<script>
-let str="привет", num=123, flag=true, txt="true";
-document.write(typeof str =='string');//true
-document.write(typeof num =='number');//true
-document.write(typeof flag =='boolean');//true
-document.write(typeof txt =='string');//true
-</script>
+              
+              <script>
+                let str="привет", num=123, flag=true, txt="true";
+                document.write(typeof str =='string');//true
+                document.write(typeof num =='number');//true
+                document.write(typeof flag =='boolean');//true
+                document.write(typeof txt =='string');//true
+                </script>
 
 <p>задание 23<p>
-<script>
-const num = 5;
-result = num*-1;
-document.write(result);
-</script>
+             
+             <script>
+                const num = 5;
+                result = num*-1;
+                document.write(result);
+                </script>
 Код задач:
 
-function chromosomeCheck(chrom) {
-if (chrom == 'X'){alert('Поздравляю у вас дочь');}
-else if (chrom == 'Y'){alert('Поздравляю у вас сын');}
-else {alert('введите правильную хромосому');}
-}
-}
+                function chromosomeCheck(chrom) {
+                if (chrom == 'X'){alert('Поздравляю у вас дочь');}
+                else if (chrom == 'Y'){alert('Поздравляю у вас сын');}
+                else {alert('введите правильную хромосому');}
+                }
+                }
         
-function simpleMultiplication(number) {
-if (number % 2 == 0)
-{console.log(number*8);}
-else {console.log(number*9);}
+                function simpleMultiplication(number) {
+                if (number % 2 == 0)
+                {console.log(number*8);}
+                else {console.log(number*9);}
 
-    } 
-function nearestSq(n){
-        return Math.pow(Math.round(Math.sqrt(n)),2);
-    } 
+                    } 
+                    
+                function nearestSq(n){
+                        return Math.pow(Math.round(Math.sqrt(n)),2);
+                    } 
+
+                var countSquares = function(cuts){
+                  return cuts != 0 ? (cuts+1)**3 - (cuts-1)**3 : 1;
+                    }
         
-var countSquares = function(cuts){
-  return cuts != 0 ? (cuts+1)**3 - (cuts-1)**3 : 1;
-    }
+              
+              function periodIsLate(last, today, cycleLength) {
+                  var temp = Math.ceil((today - last)/(1000 * 60 * 60 * 24));
+                  if (temp > cycleLength) return true; else return false;
+                    }
         
-function periodIsLate(last, today, cycleLength) {
-  var temp = Math.ceil((today - last)/(1000 * 60 * 60 * 24));
-  if (temp > cycleLength) return true; else return false;
-    }
         
-function noSpace(x){
-  return x.replaceAll(" ","");
-    }
+                        function noSpace(x){
+                          return x.replaceAll(" ","");
+                            }
